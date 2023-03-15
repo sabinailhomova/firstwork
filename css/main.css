@@ -1,0 +1,472 @@
+@font-face {
+    font-family: 'Roboto';
+    src: url('Roboto-Black.woff2') format('woff2'),
+        url('Roboto-Black.woff') format('woff'),
+        url('Roboto-Black.ttf') format('truetype');
+    font-weight: 900;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Roboto';
+    src: url('Roboto-Regular.woff2') format('woff2'),
+        url('Roboto-Regular.woff') format('woff'),
+        url('Roboto-Regular.ttf') format('truetype');
+    font-weight: normal;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Roboto';
+    src: url('Roboto-Thin.woff2') format('woff2'),
+        url('Roboto-Thin.woff') format('woff'),
+        url('Roboto-Thin.ttf') format('truetype');
+    font-weight: 100;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Roboto';
+    src: url('Roboto-Light.woff2') format('woff2'),
+        url('Roboto-Light.woff') format('woff'),
+        url('Roboto-Light.ttf') format('truetype');
+    font-weight: 300;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Roboto';
+    src: url('Roboto-Bold.woff2') format('woff2'),
+        url('Roboto-Bold.woff') format('woff'),
+        url('Roboto-Bold.ttf') format('truetype');
+    font-weight: bold;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Roboto';
+    src: url('Roboto-Medium.woff2') format('woff2'),
+        url('Roboto-Medium.woff') format('woff'),
+        url('Roboto-Medium.ttf') format('truetype');
+    font-weight: 500;
+    font-style: normal;
+    font-display: swap;
+}
+
+/* <--------------------------------------------------------- */
+
+@font-face {
+    font-family: 'Fredoka One';
+    src: url('FredokaOne-Regular.woff2') format('woff2'),
+        url('FredokaOne-Regular.woff') format('woff'),
+        url('FredokaOne-Regular.ttf') format('truetype');
+    font-weight: normal;
+    font-style: normal;
+    font-display: swap;
+}
+/* ---------------------------------------------------------- */
+
+@font-face {
+    font-family: 'Hind Madurai';
+    src: url('HindMadurai-Light.woff2') format('woff2'),
+        url('HindMadurai-Light.woff') format('woff'),
+        url('HindMadurai-Light.ttf') format('truetype');
+    font-weight: 300;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Hind Madurai';
+    src: url('HindMadurai-Bold.woff2') format('woff2'),
+        url('HindMadurai-Bold.woff') format('woff'),
+        url('HindMadurai-Bold.ttf') format('truetype');
+    font-weight: bold;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Hind Madurai';
+    src: url('HindMadurai-Regular.woff2') format('woff2'),
+        url('HindMadurai-Regular.woff') format('woff'),
+        url('HindMadurai-Regular.ttf') format('truetype');
+    font-weight: normal;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Hind Madurai';
+    src: url('HindMadurai-Medium.woff2') format('woff2'),
+        url('HindMadurai-Medium.woff') format('woff'),
+        url('HindMadurai-Medium.ttf') format('truetype');
+    font-weight: 500;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Hind Madurai';
+    src: url('HindMadurai-SemiBold.woff2') format('woff2'),
+        url('HindMadurai-SemiBold.woff') format('woff'),
+        url('HindMadurai-SemiBold.ttf') format('truetype');
+    font-weight: 600;
+    font-style: normal;
+    font-display: swap;
+}
+
+/* <----------------------------------------------------------> */
+
+
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    list-style: none;
+    text-decoration: none;
+    color: black;
+}
+.site-container{
+    width: 1140px;
+        margin: 0 auto;
+        padding: 0 20px;
+
+}
+.header{
+    background-color: #F8EDF0;
+}
+.hero-section{
+    background-color: #F8EDF0;
+}
+.brovn-sugar-section{
+background-color: #F8EDF0;
+}
+.simple-way-section{
+background-color: #F8EDF0;
+}
+.site-btn{
+    width: 165px;
+    height: 49px;
+    border: none;
+    background-color: #D23166;
+    border-radius: 6px;
+    color: white;
+    font-family: 'Fredoka One';
+}
+.site-btn:hover{
+    color: #D23166;
+    background-color: #ffffff;
+    border: solid #D23166;
+    transition: 1s
+}
+
+.roboto{
+    font-family: 'Roboto';
+}
+
+.header-box{
+    display: flex;
+    
+    align-items: center;
+}
+.header-link:hover{
+    color: #D23166;
+}
+.header-link{
+margin-left: 10px;
+color: rgb(133, 133, 133);
+}
+.header-firs-link{
+    margin-left: 400px;
+}
+.header-btn{
+    margin-left: 130px;
+}
+.hero{
+    display: flex;
+    align-items: center;
+}
+
+.hero-img{
+    height: 420px;
+    width: 500px;
+    margin-left: 200px;
+}
+.hero-head-span{
+    font-family: 'Fredoka One';
+    font-size: 18px;
+
+}
+.hero-span{
+    display: flex;
+}
+.ice-cream{
+        color: #D23166;
+        font-family: 'Fredoka One';
+}
+.hero-list{
+ margin-bottom: 30px;   
+}
+.hero-p{
+  margin-bottom: 30px;  
+}
+.servis-box{
+    display: flex;
+}
+.servis-link{
+align-items: center;
+text-align: center;
+width: 220px;
+background: #FFFFFF;
+    border: 1px solid rgba(0, 0, 0, 0.03);
+    border-radius: 7px;
+    margin-top: 40px;
+    font-family: 'Hind Madurai';
+    width: 220px;
+    height: 150px;
+    margin-right: 40px;
+    margin-bottom: 30px;
+}
+.servis-link:hover{
+    background: #FFFFFF;
+        box-shadow: 20px 20px 50px rgb(0 0 0 / 22%);
+        border-radius: 7px;
+        border: 1px solid rgba(0, 0, 0, 0.03);
+        transition: 0.2s;
+}
+.servis-img{
+    height: 50px;
+    margin-bottom: 5px;
+}
+.brown-sugar-img{
+    width:  400px;
+    margin-left: 200px;
+}
+.brown-sugar-link{
+    display: flex;
+}
+.brown-sugar-list{
+    margin-top: 80px;
+}
+
+.brown-sugar-titel{
+    margin-bottom: 20px;
+}
+.brown-sugar-p{
+    margin-bottom: 20px;
+}
+.our-product-h{
+    padding-left: 400px;
+}
+.our-product-link{
+    color: gray;
+    padding-top: 40px;
+    
+    margin-left: 50px;
+}
+.our-product-link:hover {
+    color: black;
+    border-bottom: 3px solid #D23166;
+    margin-left: 50px;
+}
+.our-product-list{
+    display: flex;
+    margin-top: 30px; 
+    margin-bottom: 20px;
+}
+.flax{
+    display: flex;
+    align-items: center;
+    margin-top: 40px;
+}
+.our-product-price{
+    display: flex;
+}
+.our-product-price-second{
+    color: gray;
+        width: 2px;
+        height: 2px;
+        font-family: 'Roboto', sans-serif;
+        text-decoration-line: line-through;
+}
+.our-product-img{
+    padding-left: 85px;
+}
+.our-product-img-{
+    padding-right: 85px;
+}
+.margin{
+    margin-top: 20px;
+}
+.simple-way{
+    padding-top: 105px;
+    display: flex;
+    align-items: center;   
+    padding-bottom: 105px; 
+}
+
+.simple-way-titel{
+    display: flex;
+    margin-bottom: 10px;
+}
+.simple-way-packaging{
+    margin-left: 250px;
+}
+.simple-way-img{
+    margin-left: 30px;
+}
+
+.simple-way-icons{
+    display: flex;
+    align-items: center;
+}
+.simple-way-icons-head{
+    background-color: white;
+    width: 25px;
+    height: 25px;
+    padding-left: 4.5px;
+    padding-top: 4.5px;
+    border-radius: 4px;
+}
+.simple-way-icons-head:hover {
+    background-color: white;
+    width: 29px;
+    height: 29px;
+    padding-left: 5.5px;
+    padding-top: 5.5px;
+    border-radius: 4px;
+}
+
+.simple-way-h{
+    margin-bottom: 30px;
+}
+.simple-way-link{
+    margin-bottom: 30px;
+}
+.have-question-h{
+    text-align: center;
+}
+.have-question-box{
+    width: 250px;
+    height:39px;
+    border-radius: 5px;
+    padding-left: 10px;
+    outline: none;
+        border: 2px solid #D23166;
+    
+}
+.have-question-list{
+    display: flex;
+}
+.have-question-box-second{
+    width: 250px;
+    height: 39px;
+    border-radius: 5px;
+    margin-left:50px;
+    padding-left: 10px;
+    outline: none;
+    border:  2px solid #D23166;
+}
+.have-question-titel{
+width: 430px;
+    height: 39px;
+    border-radius: 5px;
+    margin-top: 10px;
+    padding-left: 10px;
+    outline: none;
+    border:  2px solid #D23166;
+}
+.have-question-btn {
+    width: 115px;
+    height: 39px;
+    border: none;
+    background-color: #D23166;
+    border-radius: 6px;
+    color: white;
+}
+
+.have-question-btn:hover {
+    color: #D23166;
+    background-color: #ffffff;
+    border: solid #D23166;
+    transition: 1s
+}
+
+.have-question-box-{
+    margin-left: 250px;
+    margin-top: 30px;
+    margin-bottom: 30px;
+}
+.footer{
+    display: flex;
+    background-color: rgb(0, 0, 0);
+}
+.footer-ul{
+    display: flex;
+    
+    
+}
+.footer-link{
+    display: flex;
+}
+.footer-third-box{
+margin-top: 80px;
+margin-left: 50px;
+}
+.footer-box--{
+    margin-top: 80px;
+    margin-left: 50px;
+}
+.footer-box-2{
+margin-top: 80px;
+    margin-left: 50px;
+}
+.footer-third-link{
+    color: gray;
+}
+.footer-third-link:hover {
+    color: rgb(255, 255, 255);
+}
+.footer-h5 {
+    color: gray;
+}
+
+.footer-h5:hover {
+    color: rgb(255, 255, 255);
+}
+.footer-list{
+color: gray;
+}
+.footer-list:hover {
+    color: rgb(255, 255, 255);
+}
+.footer-titel{
+    color: #ffffff;
+}
+.footer-h4{
+    color: #ffffff;
+}
+.footer-link{
+    color: #FFFFFF;
+}
+.footer--box{
+width: 230px;
+    height: 49px;
+    border-radius: 5px;
+    margin-top: 10px;
+    padding-left: 10px;
+    outline: none;
+    border: 2px solid #D23166;
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+.footer-logoi{
+    margin-left:10px ;
+}
